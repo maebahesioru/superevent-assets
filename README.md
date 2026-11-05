@@ -11,6 +11,10 @@ superevent 案件用の画像・フォントを、URL（リンク）で直接参
 | `images/font.png` | 素材画像 | 1,000,536 B |
 | `images/ideology.png` | 素材画像 | 246,433 B |
 | `images/superevent.png` | 素材画像 | 1,152,422 B |
+| `text/GenShinP/` | 源真ゴシックP で焼いた文字画像 13 枚（透過 PNG） | 計 約 460 KB |
+| `text/SmartFontUI/` | スマートフォントUI で焼いた文字画像 13 枚（透過 PNG） | 計 約 420 KB |
+| `text/preview-*.png` | 13 枚を暗背景に並べた見本シート | — |
+| `text/URLS.md` | 文字画像の全 URL 一覧 | — |
 
 ## リンク（CDN・CORS 有り）
 
@@ -22,6 +26,13 @@ https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/fonts/03スマ�
 https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/images/font.png
 https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/images/ideology.png
 https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/images/superevent.png
+```
+
+文字画像（フォントファイルを配らずに文字を貼る用）は `text/` 配下。全 URL は [text/URLS.md](text/URLS.md)。
+
+```
+https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/text/GenShinP/header-yasuda.png
+https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/text/SmartFontUI/header-yasuda.png
 ```
 
 GitHub raw 直（`raw.githubusercontent.com`）でも取得自体はできるが、フォントが `content-type: application/octet-stream` で返るため、フォント用途は jsDelivr を使う。
