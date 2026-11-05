@@ -24,7 +24,7 @@ https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/images/ideology.
 https://cdn.jsdelivr.net/gh/maebahesioru/superevent-assets@main/images/superevent.png
 ```
 
-GitHub raw 直（`raw.githubusercontent.com`）はフォント読込で CORS が付かず `@font-face` が失敗するので使わない。
+GitHub raw 直（`raw.githubusercontent.com`）でも取得自体はできるが、フォントが `content-type: application/octet-stream` で返るため、フォント用途は jsDelivr を使う。
 
 ## ライセンス
 
